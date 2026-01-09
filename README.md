@@ -1,5 +1,8 @@
 # wp-specs
 
+![CI](https://github.com/wp-labs/wp-specs/workflows/CI/badge.svg)
+[![codecov](https://codecov.io/gh/wp-labs/wp-specs/graph/badge.svg?token=6SVCXBHB6B)](https://codecov.io/gh/wp-labs/wp-specs)
+
 `wp-specs` 提供 WordPress Labs 生态里配置层与插件层共享的“核心规格”类型。crate 用极少的依赖表达 sinks/sources 的基本字段与通配符匹配数组，方便在 CLI、服务端或插件运行时之间传输序列化结构。
 
 ## Features
