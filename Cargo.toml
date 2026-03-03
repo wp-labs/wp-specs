@@ -1,6 +1,6 @@
 [package]
 name = "wp-specs"
-version = "0.7.6"
+version = "0.8.0"
 edition = "2024"
 license = "Elastic-2.0"
 description = "Ultra-light shared specs for WordPress Labs connectors and plugins"
@@ -13,11 +13,11 @@ categories = ["config", "data-structures"]
 
 [dependencies]
 log = "0.4"
-toml = "0.9"
-orion-error = "0.5"
+toml = "1.0"
+orion-error = "0.6"
 winnow = "0.7"
 derive_more = "2.1"
-wp-connector-api =  "0.7"
+wp-connector-api =  "0.8"
 wp-model-core    =  "0.8"
 
 serde = { version = "1.0", features = ["derive"] }
