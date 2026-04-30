@@ -1,6 +1,6 @@
 [package]
 name = "wp-specs"
-version = "0.8.1"  # @gxl:set(version)
+version = "0.9.0"  # @gxl:set(version)
 edition = "2024"
 license = "Elastic-2.0"
 description = "Ultra-light shared specs for WordPress Labs connectors and plugins"
