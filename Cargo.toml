@@ -2,7 +2,7 @@
 name = "wp-specs"
 version = "0.12.0"  # @gxl:set(version)
 edition = "2024"
-license = "Elastic-2.0"
+license = "Apache-2.0"
 description = "Ultra-light shared specs for WordPress Labs connectors and plugins"
 readme = "README.md"
 repository = "https://github.com/wp-labs/wp-specs"

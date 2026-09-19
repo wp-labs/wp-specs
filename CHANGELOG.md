@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.12.0] - 2026-09-19
+
+### ⚠️ BREAKING CHANGES
+
+- 依赖 `wp-connector-api` 0.12 → 0.13（其上游依赖 `wp-model-core` 0.10）
+
+### Dependencies
+
+- `wp-connector-api`：`0.12` → `0.13`
+- `toml`（dev）：`1.0` → `1.1`
+
+### Changed
+
+- 开源协议由 Elastic License 2.0 改为 Apache License 2.0（与 wp-labs 其他工程对齐，新增 `LICENSE` 文件）。
+
 ## [0.11.0] - 2026-08-04
 
 ### ⚠️ BREAKING CHANGES
@@ -17,5 +32,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - `wp-connector-api`：`0.10` → `0.12`
 
-[Unreleased]: https://github.com/wp-labs/wp-specs/compare/v0.11.0...HEAD
+[Unreleased]: https://github.com/wp-labs/wp-specs/compare/v0.12.0...HEAD
+[0.12.0]: https://github.com/wp-labs/wp-specs/compare/v0.11.0...v0.12.0
 [0.11.0]: https://github.com/wp-labs/wp-specs/compare/v0.10.0...v0.11.0

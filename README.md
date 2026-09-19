@@ -1,6 +1,10 @@
 # wp-specs
 
 ![CI](https://github.com/wp-labs/wp-specs/workflows/CI/badge.svg)
+[![crates.io](https://img.shields.io/crates/v/wp-specs.svg?logo=rust)](https://crates.io/crates/wp-specs)
+[![downloads](https://img.shields.io/crates/d/wp-specs.svg?logo=rust)](https://crates.io/crates/wp-specs)
+[![docs.rs](https://img.shields.io/docsrs/wp-specs?logo=docsdotrs)](https://docs.rs/wp-specs)
+[![license](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
 [![codecov](https://codecov.io/gh/wp-labs/wp-specs/graph/badge.svg?token=6SVCXBHB6B)](https://codecov.io/gh/wp-labs/wp-specs)
 
 `wp-specs` 提供 WordPress Labs 生态里配置层与插件层共享的“核心规格”类型。crate 用极少的依赖表达 sinks/sources 的基本字段与通配符匹配数组，方便在 CLI、服务端或插件运行时之间传输序列化结构。
@@ -45,7 +49,7 @@ assert!(!topics.is_empty());
 
 ## License
 
-本项目在 [Elastic License 2.0](LICENSE) 下分发。
+本项目在 [Apache License 2.0](LICENSE) 下分发。
 
 ## Contribution
 
