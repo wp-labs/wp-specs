@@ -14,7 +14,7 @@ categories = ["config", "data-structures"]
 [dependencies]
 serde = { version = "1.0", features = ["derive"] }
 wildmatch = "2.6"
-wp-connector-api = "0.10"
+wp-connector-api = "0.13"
 
 [dev-dependencies]
-toml = "1.0"
+toml = "1.1"
