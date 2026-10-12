@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.13.0] - 2026-10-12
+
+### ⚠️ BREAKING CHANGES
+- **依赖 `wp-connector-api` 0.13 → 0.14**：`CoreSinkSpec` / `CoreSourceSpec` 的公开字段 `params: ParamMap` 的来源升级到 `wp-connector-api` 0.14；使用方须将 `wp-connector-api` 一同升到 0.14，否则依赖图会同时存在 0.13/0.14 两份 crate，造成跨版本类型冲突。
+
+### Changed
+- 随 `wp-connector-api` 0.14 同步到 orion-error 0.9 世代。
+
 ## [0.12.0] - 2026-09-19
 
 ### ⚠️ BREAKING CHANGES
